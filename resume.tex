@@ -1,0 +1,232 @@
+%-------------------------
+% Resume in Latex
+% Author : Jorge Saravia
+% Based off of: https://github.com/jakegut/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+\usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge Jorge Saravia} \\ \vspace{8pt}
+    \href{tel:+xxxxxxxx}{\underline{\faicon{phone} \small +(xxx) xxxx-xxxx}} $|$ 
+    \href{mailto:j@gmail.com}{\underline{\faicon{envelope} j@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/jorge-saravia/}{\underline{ \faicon{linkedin} linkedin.com/in/jorge-saravia}}
+\end{center}
+\begin{center}
+  \href{https://github.com/jsaravia36}{\underline{ \faicon{github} github.com/jsaravia36}} $ (current job)|$
+  \href{https://github.com/shadowblaze36}{\underline{\faicon{github} github.com/shadowblaze36}} $(personal)$
+  
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Universidad Privada de San Pedro (USAP)}{San Pedro Sula, Honduras}
+      {Bachelor of Arts in Computer Science, Minor in Networking}{Aug. 2017 -- Sep. 2021}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+  \resumeSubheading
+  {Fullstack Developer}{Nov. 2022 -- Present}
+  {Zonamerica}{Montevideo, Uruguay}
+  \resumeItemListStart
+    \resumeItem{Worked on a React Native project to develop a cross-platform mobile app for a large retail client.}
+    \resumeItem{Developed and maintained RESTful APIs using .NET Web API, and integrated with external systems using JSON and XML}
+    \resumeItem{Troubleshoot and resolve technical issues, including bugs, performance bottlenecks, and production incidents.}
+    \resumeItem{Collaborate with cross-functional teams, including product managers, designers, and other developers, to define product features and requirements.}
+  \resumeItemListEnd
+
+  \resumeSubheading
+    {Software Developer}{Jan. 2022 -- Nov. 2022}
+    {Tegra}{San Pedro Sula, Honduras}
+    \resumeItemListStart
+      \resumeItem{Built Enterprise level tools for industrial processes.}
+      \resumeItem{Implemented CI/CD on all ongoing projects.}
+      \resumeItem{Developed and maintained multiple mobile apps for the manufacturing area.}
+      \resumeItem{Gathered and reorganized all internal developments in Azure DevOps.}
+      \resumeItem{Worked together with other companies, such as Nike and Fanatics.}
+    \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+\resumeSubheading
+{Web Developer}{Feb. 2020 -- Dec. 2021}
+{Credisol}{San Pedro Sula, Honduras}
+\resumeItemListStart
+  \resumeItem{Cooperated with designers to create clean interfaces and simple, intuitive interactions and experiences.}
+  \resumeItem{Worked with senior developers to manage large, complex design projects for corporate clients.}
+  \resumeItem{Completed detailed programming and development tasks for front-end public and internal websites as well as challenging back-end server code.}
+  \resumeItem{Used Java and JSF to build a banking platform for a financial services client, implementing payment integrations and order tracking features.}
+  \resumeItem{Carried out quality assurance tests to discover errors and optimize usability.}
+  \resumeItem{Obtained various trainings focused on the financial area.}
+\resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Certificates}
+
+  % \resumeSubHeadingListStart
+  %   \resumeSubheading
+  %     {Udemy}{Dec. 2021 -- May 2022}
+  %     {Flutter: Your complete development guide for iOS and Android }{ude.my/UC-0be83af6-6c2c-459d-841f-9fbfbb6c3570}
+  % \resumeSubHeadingListEnd
+
+  % \resumeSubHeadingListStart
+  %   \resumeSubheading
+  %     {Google Activate}{Jan. 2020 -- Mar. 2020}
+  %     {E-commerce }{ID: TSW XJ2 89R}
+  % \resumeSubHeadingListEnd
+
+  \resumeSubHeadingListStart
+  \resumeSubheading
+    {C\# Fundamentals}{Pluralsight}
+    {id: 0096b00d-2398-435a-82f7-3f5401408ab1}{Nov. 2022}
+\resumeSubHeadingListEnd
+
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Clean Coding Principles in C\# }{Pluralsight}
+      {id: f603b478-ee6d-4cd2-b509-5aa8e2005abc}{Sep. 2022}
+  \resumeSubHeadingListEnd
+
+  
+
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Flutter: Your complete development guide for iOS and Android }{Udemy}
+      {ude.my/UC-0be83af6-6c2c-459d-841f-9fbfbb6c3570}{May 2022}
+  \resumeSubHeadingListEnd
+
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {E-commerce}{Google Activate}
+      {id: TSW XJ2 89R}{Mar. 2020}
+  \resumeSubHeadingListEnd
+
+
+%
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, C\#, Dart, JavaScript, SQL, HTML/CSS} \\
+     \textbf{Frameworks}{: ReactJs, React Native, Xamarin, Flutter, .Net, Android Studio, Spring, JSF} \\
+     \textbf{Developer Tools}{: Git, Docker, Xcode, VS Code, Visual Studio, Rider, IntelliJ, Postman, Azure Data Studio, SQL Managment Studio} \\
+     \textbf{Other Skills}{: SVN, Jira, Scrum, Finance, Azure Devops, CI/CD, Project Managment, Restful Apis}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
